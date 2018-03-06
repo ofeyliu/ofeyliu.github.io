@@ -10,7 +10,7 @@
       body {
         font-family: 'sans-serif';
         font-size: 16px;
-        background-color: #FFFCF4;
+        background-color: #F0EAD6;
         color: #4F6071;
       }
       .color1 {
@@ -19,7 +19,7 @@
       #header {
         width: 100%;
         height: 360px;
-        background-color: #F0EAD6
+        background-color: #CDCDC1
         /* background-color: #b30000; */
         /* background-color: #CCC; */
       }
@@ -64,7 +64,7 @@
         margin-top: 30px;
       }
       .paper-image {
-        width: 150px;
+        width: 200px;
       }
       .paper-title {
         font-weight: bold;
@@ -107,16 +107,121 @@
         <div class='row'>
           <h1>About</h1>
           <div class='vspace'>
-            I am a master student in the 
-            <a href='http://ivlab.sjtu.edu.cn/' target='_blank'>Intelligence Vision Lab</a>
+            I am a master student at
+            <a href='http://ivlab.sjtu.edu.cn/' target='_blank'>Intelligence Vision Lab</a> in Shanghai Jiaotong University.  
           </div>
           <div>
-            I'm mainly interested in Machine learning and Deep learning, especially applied to computer vision.
+            I'm mainly interested in Machine learning and Image Processing, especially in feature matching, human pose estimation and action recognition.
           </div>
         </div>
+
+        <!-- <div class='row vspace-top'>
+          <h1>Projects</h1>
+          <a href='https://github.com/jcjohnson/neural-style' target='_blank'>
+            <h2>neural-style</h2>
+          </a>
+          A Torch implementation of the neural style transfer algorithm from the paper
+          <a href="http://arxiv.org/abs/1508.06576">"A Neural Algorithm of Artistic Style"</a>
+          by Leon A. Gatys, Alexander S. Ecker, and Matthias Bethge.
+          <a href='https://github.com/jcjohnson/cnn-vis' target='_blank'>
+            <h2>cnn-vis</h2>
+          </a>
+          A tool to use convolutional neural networks to generate images, inspired by Google's
+          <a href='http://googleresearch.blogspot.com/2015/06/inceptionism-going-deeper-into-neural.html'>
+            Inceptionism</a>.
+            <a href='https://github.com/jcjohnson/torch-rnn' target='_blank'>
+              <h2>torch-rnn</h2>
+            </a>
+            Train character-level language models in torch, and sample from them to generate text.
+            The language model is implemented with efficient, reusable RNN and LSTM modules.
+            <a href='https://github.com/jcjohnson/simple-amt' target='_blank'>
+              <h2>simple-amt</h2>
+            </a>
+            A micro-framework that makes it easy to create and launch
+            tasks on Amazon's Mechanical Turk.
+            <a href='https://github.com/jcjohnson/cnn-benchmarks' target='_blank'>
+              <h2>cnn-benchmarks</h2>
+            </a>
+            Benchmarks for popular convolutional neural network models on different GPUs.
+          </div> -->
+
+          <div class='row'>
+            <h1>Projects</h1>
+
+            <div class='row vspace-top'>
+              <div class='col-xs-3 text-center'>
+                <img class='paper-image' src='images/linglingpai.png'>
+              </div>
+              <div class='col-xs-9'>
+                <div class='paper-title'>
+                  Online loan and investment platform                   
+                </div>
+                <div>
+                  A websites which helping investor to invest the loan with optimal strategy through analyzing the loan bid data provided by ppdai.com.        
+                </div>
+                <div>
+                  <a href='https://github.com/ofeyliu/linglingpai'>[code]</a>
+                </div>
+              </div>
+            </div>
+
+
+            <div class='row vspace-top'>
+              <div class='col-xs-3 text-center'>
+                <!-- <img class='paper-image' src='images/'> -->
+              </div>
+              <div class='col-xs-9'>
+                <div class='paper-title'>
+                  Hotel room type prediction                   
+               </div>
+               <div>
+                Implementation of hotel room type prediction using <a href="http://xgboost.readthedocs.io/en/latest/">"Xgboost"</a>library.       
+              </div>
+              <div>
+                <a href='https://github.com/ofeyliu/learn_kaggle/tree/master/xiechen'>[code]</a>
+              </div>
+            </div>
+          </div>
+
+          <div class='row vspace-top'>
+            <div class='col-xs-3 text-center'>
+              <img class='paper-image' src='images/falldown.jpg'>
+            </div>
+            <div class='col-xs-9'>
+              <div class='paper-title'>
+                Falldown Detection                   
+              </div>
+              <div>
+                A demo software which contains implementation of human falldown detection algorithms using multi features fusion methods, which contains MEI/MHI motion template, HOG, body part relation and aspect ratio. This software was supplied to company.     
+              </div>
+              
+            </div>
+          </div>
+
+          <div class='row vspace-top'>
+            <div class='col-xs-3 text-center'>
+              <img class='paper-image' src='images/funnyface_videoplayer.png'>
+            </div>
+            <div class='col-xs-9'>
+              <div class='paper-title'>
+                Funny face video player                   
+              </div>
+              <div>
+                A video player which contain functions of face swapping, head pose estimation, and interesting face retouching like cartoon noses,lips and eyes etc; The face landmarks and attributes can be detected by <a href="http://www.cloudwalk.cn/api_0.html">Cloudwalk API</a> or <a href="http://dlib.net">Dlib</a> library.     
+              </div>
+               <div>
+                <a href='https://github.com/ofeyliu/funnyface_videoplayer'>[code]</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+         
+
         <div class='row'>
           <h1>Publications</h1>
-
           <div class='row vspace-top'>
             <div class='col-xs-3 text-center'>
               <img class='paper-image' src='images/kposelet.jpg'>
@@ -139,36 +244,13 @@
           </div>
         </div>
         
-        <div class='row vspace-top'>
-         <!--  <h1>Projects</h1>
-          <a href='https://github.com/jcjohnson/neural-style' target='_blank'>
-            <h2>neural-style</h2>
-          </a>
-          A Torch implementation of the neural style transfer algorithm from the paper
-          <a href="http://arxiv.org/abs/1508.06576">"A Neural Algorithm of Artistic Style"</a>
-          by Leon A. Gatys, Alexander S. Ecker, and Matthias Bethge.
-          <a href='https://github.com/jcjohnson/cnn-vis' target='_blank'>
-            <h2>cnn-vis</h2>
-          </a>
-          A tool to use convolutional neural networks to generate images, inspired by Google's
-          <a href='http://googleresearch.blogspot.com/2015/06/inceptionism-going-deeper-into-neural.html'>
-            Inceptionism</a>.
-          <a href='https://github.com/jcjohnson/torch-rnn' target='_blank'>
-            <h2>torch-rnn</h2>
-          </a>
-          Train character-level language models in torch, and sample from them to generate text.
-          The language model is implemented with efficient, reusable RNN and LSTM modules.
-          <a href='https://github.com/jcjohnson/simple-amt' target='_blank'>
-            <h2>simple-amt</h2>
-          </a>
-          A micro-framework that makes it easy to create and launch
-          tasks on Amazon's Mechanical Turk.
-          <a href='https://github.com/jcjohnson/cnn-benchmarks' target='_blank'>
-            <h2>cnn-benchmarks</h2>
-          </a>
-          Benchmarks for popular convolutional neural network models on different GPUs. -->
-        </div>
+        
       </div>
     </div>
+
+    <div class="row align-center">
+      <p align="center">Last Updated: March 05, 2018</p>
+      <p align="center">Inspired by <a href="https://cs.stanford.edu/people/jcjohns/">homepage</a></p>
+   </div>
   </body>
 </html>
